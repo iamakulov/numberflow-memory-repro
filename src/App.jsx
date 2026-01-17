@@ -45,8 +45,9 @@ export function App() {
         <ol>
           <li>Run the websocket server: <code>npm run server</code></li>
           <li>Run the app: <code>npm install</code> then <code>npm run dev</code></li>
-          <li>Open the page and background the tab for 5-10 minutes</li>
-          <li>Observe the JS heap size while hidden</li>
+          <li>Open the page. Open the DevTools in a separate window.</li>
+          <li>Background the tab for 5-10 minutes.</li>
+          <li>Observe the JS heap size in DevTools while the tab is backgrounded</li>
         </ol>
       </div>
     </div>
